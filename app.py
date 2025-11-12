@@ -42,7 +42,7 @@ def add_bg_from_local(image_file):
     st.markdown(page_bg, unsafe_allow_html=True)
 
 # Apply your local background image
-add_bg_from_local("bg.jpg")
+add_bg_from_local("d1.jpg")
 
 # -----------------------
 # Text cleaning function
@@ -79,3 +79,4 @@ if st.button("🔍 Check News"):
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:gray;'>Developed by Aditya Gupta ⚡</p>", unsafe_allow_html=True)
+
