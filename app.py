@@ -60,7 +60,7 @@ def clean_text(text):
 # -----------------------
 st.set_page_config(page_title="Fake News Detector", page_icon="📰")
 st.title("📰 Fake News Detector")
-st.markdown("<h4 style='color:gray;'>Enter a news title and text to check if it's <b>Real</b> or <b>Fake</b></h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='color:Blue;'>Enter a news title and text to check if it's <b>Real</b> or <b>Fake</b></h4>", unsafe_allow_html=True)
 
 title = st.text_input("📰 Enter News Title:")
 text = st.text_area("🗞️ Enter News Text:")
@@ -79,5 +79,6 @@ if st.button("🔍 Check News"):
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:gray;'>Developed by our team ⚡</p>", unsafe_allow_html=True)
+
 
 
