@@ -78,5 +78,6 @@ if st.button("🔍 Check News"):
         st.error("🚨 This looks like **FAKE** news.")
 
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center; color:gray;'>Developed by Aditya Gupta ⚡</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:gray;'>Developed by our team ⚡</p>", unsafe_allow_html=True)
+
 
